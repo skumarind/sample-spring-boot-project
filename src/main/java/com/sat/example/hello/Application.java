@@ -1,9 +1,5 @@
 package com.sat.example.hello;
 
-/**
- * Created by Satish on 3/15/2018.
- */
-
 import java.util.Arrays;
 
 import org.springframework.boot.CommandLineRunner;
