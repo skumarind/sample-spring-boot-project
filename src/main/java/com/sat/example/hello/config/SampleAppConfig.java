@@ -1,6 +1,7 @@
 package com.sat.example.hello.config;
 
 import com.sat.example.hello.dao.SampleApiDAO;
+import com.sat.example.hello.dto.SampleApiDTO;
 import com.sat.example.hello.service.SampleApiService;
 import com.sat.example.hello.service.SampleApiServiceImpl;
 import com.sat.example.hello.validator.PersonValidator;
@@ -28,4 +29,8 @@ public class SampleAppConfig {
         return new SampleApiDAO();
     }
 
+    @Bean
+    public SampleApiDTO sampleApiDTO(){
+        return new SampleApiDTO();
+    }
 }
